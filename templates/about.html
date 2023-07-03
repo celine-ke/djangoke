@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABOUT</title>
+    {% load static %}
+    {# JS Connection #}
+    <script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+    {# CSS Connection #}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/style.css' %}">
+</head>
+<body>
+<a href="{% url 'go home' %}"><button class="btn-danger">Home</button></a>
+<a href="{% url 'go about' %}"><button class="btn-success">About</button></a>
+<a href="{% url 'go donate' %}"><button class="btn-info">Donate</button></a>
+<a href="{% url 'go login' %}"><button class="btn-warning">Register</button></a>
+<a href="{% url 'go register' %}"><button class="btn-dark">Login</button></a>
+<hr>
+<h1>Welcome to the Ministry of Education About</h1>
+<h3 style="text-underline: black">Our Vision</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Atque cupiditate, eos hic impedit iste nam nemo omnis placeat sequi
+    sunt! A autem culpa earum et exercitationem nam nisi possimus tenetur.</p>
+<img class="picone" src="{% static 'images/mined9.jpeg' %}" alt="">
+<img class="picone" src="{% static 'images/mined10.jpeg' %}" alt="">
+
+<h3 style="text-underline: black">Our Mission</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Atque cupiditate, eos hic impedit iste nam nemo omnis placeat sequi
+    sunt! A autem culpa earum et exercitationem nam nisi possimus tenetur.</p>
+<img class="picone" src="{% static 'images/mined3.jpeg' %}" alt="">
+<img class="picone" src="{% static 'images/mined4.jpeg' %}" alt="">
+
+<h3 style="text-underline: black">History</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Atque cupiditate, eos hic impedit iste nam nemo omnis placeat sequi
+    sunt! A autem culpa earum et exercitationem nam nisi possimus tenetur.</p>
+<img class="picone" src="{% static 'images/mined5.jpeg' %}" alt="">
+<img class="picone" src="{% static 'images/mined6.jpeg' %}" alt="">
+
+<h3 style="text-underline: black">Our Upcoming Events</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Atque cupiditate, eos hic impedit iste nam nemo omnis placeat sequi
+    sunt! A autem culpa earum et exercitationem nam nisi possimus tenetur.</p>
+<img class="picone" src="{% static 'images/mined7.jpeg' %}" alt="">
+<img class="picone" src="{% static 'images/mined8.jpeg' %}" alt="">
+
+
+</body>
+</html>

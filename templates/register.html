@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTER</title>
+    {% load static %}
+    {# JS Connection #}
+    <script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+    {# CSS Connection #}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/style.css' %}">
+</head>
+<body>
+<a href="{% url 'go home' %}"><button class="btn-danger">Home</button></a>
+<a href="{% url 'go about' %}"><button class="btn-success">About</button></a>
+<a href="{% url 'go donate' %}"><button class="btn-info">Donate</button></a>
+<a href="{% url 'go login' %}"><button class="btn-warning">Register</button></a>
+<a href="{% url 'go register' %}"><button class="btn-dark">Login</button></a>
+<hr>
+<h3>Ministry Officer register</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Dicta, dolorem, excepturi ipsam laborum magnam molestias nulla
+    obcaecati quia quo rem soluta veritatis. Consequuntur fugiat labore
+    nisi rem temporibus voluptatem voluptates.</p>
+<img class="picone" src="{% static 'images/mined5.jpeg' %}" alt="">
+<img class="picone" src="{% static 'images/mined8.jpeg' %}" alt="">
+
+<h3>Teacher register</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Dicta, dolorem, excepturi ipsam laborum magnam molestias nulla
+    obcaecati quia quo rem soluta veritatis. Consequuntur fugiat labore
+    nisi rem temporibus voluptatem voluptates.</p>
+<img class="picone" src="{% static 'images/mined3.jpeg' %}" alt="">
+<img class="picone" src="{% static 'images/mined4.jpeg' %}" alt="">
+
+<h3>Student register</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Dicta, dolorem, excepturi ipsam laborum magnam molestias nulla
+    obcaecati quia quo rem soluta veritatis. Consequuntur fugiat labore
+    nisi rem temporibus voluptatem voluptates.</p>
+<img class="picone" src="{% static 'images/mined7.jpeg' %}" alt="">
+<img class="picone" src="{% static 'images/mined6.jpeg' %}" alt="">
+
+
+</body>
+</html>
